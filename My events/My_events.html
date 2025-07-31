@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>My Notes</title>
+    <link href="https://fonts.googleapis.com/css2?family=Jost:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="../main/style.css">
+</head>
+<body>
+
+<nav>
+    <a class = "nav-item" href="../main/Events.html">Home<img src="../image/home.png" alt = "home"></a>
+    <a class = "nav-item" href="">New<img src="../image/new.png" alt = "New"></a>
+    <a class = "nav-item" href="../My%20events/My_events.html">My events<img src="../image/events.png" alt = "My events"></a>
+    <a class = "nav-item" href="">Support<img src="../image/support.png" alt = "Support"></a>
+    <a class = "nav-item" href="">Contacts<img src="../image/contacts.png" alt = "Contacts"></a>
+    <a class = "nav-item" href="">Log in<img src="../image/log.png" alt = "Log in"></a>
+    <a class = "nav-item-reg" href="../main/Registration.html">Registration</a>
+</nav>
+
+<div class="planner">
+    <div id="planner">
+    </div>
+    <div class="in" id="in">
+        <input type="text" name="txt" placeholder="Create note...">
+        <button type="submit" id="sent"><span>+</span></button>
+    </div>
+</div>
+
+<div id="modal" class="modal">
+    <div class="modal-content">
+        <span class="close" id="modal-close">&times;</span>
+        <p id="note-detail"></p>
+    </div>
+</div>
+
+<script src="index.js"></script>
+</body>
+</html>
